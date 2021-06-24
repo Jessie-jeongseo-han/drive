@@ -720,6 +720,7 @@ var mimeTypeFromQuery = cacher(regMapper(regExtStrMap, map[string]string{
 	"slides?|presentation": "application/vnd.google-apps.presentation",
 	"sheet":                "application/vnd.google-apps.spreadsheet",
 	"script":               "application/vnd.google-apps.script",
+	"epub":					"application/epub+zip",
 }))
 
 var mimeTypeFromExt = cacher(regMapper(regExtStrMap))
