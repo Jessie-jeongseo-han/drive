@@ -555,6 +555,7 @@ var regExtStrMap = map[string]string{
 
 	"rtf": "application/rtf",
 	"pdf": "application/pdf",
+	"epub": "application/epub+zip",
 
 	"json": "application/json",
 	"js":   "application/x-javascript",
