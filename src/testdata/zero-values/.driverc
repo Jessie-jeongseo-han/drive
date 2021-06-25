@@ -6,7 +6,7 @@ verbose=true
 force=true
 verbose=false
 desktop-links=false
-export=pdf,doc,rtf
+export=pdf,doc,rtf,epub
 same-exports-dir=true
 
 [open]

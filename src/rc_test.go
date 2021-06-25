@@ -30,7 +30,7 @@ func TestStructuredRC(t *testing.T) {
 				"global": {"force": true, "verbose": true},
 				"pull": {
 					"desktop-links": false, "force": true, "verbose": false,
-					"export": "pdf,doc,rtf", "same-exports-dir": true,
+					"export": "pdf,doc,rtf,epub", "same-exports-dir": true,
 				},
 				"open":    {"verbose": true, "file-browser": false, "export": ""},
 				"push":    {"trashed": true, "retry-count": 10, "destination": "/tmp"},
